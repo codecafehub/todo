@@ -1,6 +1,6 @@
 let taskForm = document.querySelector('#task-form');
-taskForm.addEventListener('submit', (event) => {
-    event.preventDefault();
+taskForm.addEventListener('submit', () => {
+    
 
     let taskInput = document.querySelector('#input-item');
     let task = taskInput.value.trim();
