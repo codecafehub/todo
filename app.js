@@ -26,6 +26,7 @@ taskForm.addEventListener('submit', () => {
     localStorage.setItem('tasks', JSON.stringify(taskList));
 
     displayTask();
+    location.reload()
 });
 
 
